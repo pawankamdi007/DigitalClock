@@ -16,10 +16,12 @@ const Clock=()=>{
 
     return (
         <>
+            <div className="div">
             <h1 className="heading1">Digital Clock</h1>
             <div className="div1">
             <h1 className="heading">{`${time}`}</h1>
 
+            </div>
             </div>
         </>
     );
